@@ -21,7 +21,7 @@
 
     Begin {
         
-        # Controle that the module is installed if missing ask to install it.
+        # Controll that the module is installed if missing ask to install it.
         Foreach ($Module in $Services) {
             Find-YourModule $Module
         }
