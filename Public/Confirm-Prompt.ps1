@@ -1,5 +1,11 @@
 ﻿Function Confirm-Prompt {
-
+<#
+.SYNOPSIS
+    A Simple function to prompt give a GUI Prompt for windows. it uses the assemblyname 'PresentationFramework'
+.EXAMPLE
+    Confirm-Prompt -Message "Missing Module: `'$ModuleName`'`nWould you like to install it?" -barTitle 'Confirm installation' -Icon Question -buttonStyle YesNo
+    This will popup a windows where the User have to answer the prompt with a Yes or No, Icon will in this case display a Questionmark besid the actuall message in the prompt.
+#>
     [CmdletBinding()]
     Param  (
         [Parameter(Mandatory)]

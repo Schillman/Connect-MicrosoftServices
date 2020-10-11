@@ -1,4 +1,11 @@
 ﻿function Get-CurrentLocation {
+    <#
+    .DESCRIPTION
+       A function that no matter what IDE you are using it will return the current Path 
+    .EXAMPLE
+        Get-CurrentLocation
+        C:\Users\<UserName>
+    #>
  if ($PSScriptRoot) {
         return $PSScriptRoot
     } elseif ($psISE.CurrentFile.FullPath) {
