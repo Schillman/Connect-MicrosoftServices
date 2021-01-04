@@ -1,4 +1,4 @@
-# Connect-MicrosoftServices
+# Connect-MicrosoftServices (Not jet Completed)
 
 A Powershell Module that checks for requiered modules and installs them if missing.
 As of now the following services is availeble in the module.
